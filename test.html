@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="Title" content="HyLib 整合性圖書館自動化系統">
+<meta name="Keywords" content="Webpac 2.0 Chinese Version">
+<title>Webpac</title>
+<style type="text/css">
+.layout {
+    margin:auto;
+}
+.login {
+    background:url(images/loginarea.gif) no-repeat left top;
+	width:402px;
+	height:242px;
+	margin:0 auto;
+}
+.login table {
+    margin:71px 0 0 18px;
+	margin:0px 0 0 0px\9;
+	*margin:70px 0 0 15px;
+	padding-top:50px;
+	width:380px;
+}
+.login TH {
+    font-size:13px;
+	color:#163f92;
+	width:60px;
+	letter-spacing:2px;
+	font-weight:normal;
+}
+.login TD {
+    font-size:13px;
+	letter-spacing:1px;
+	font-weight:normal;
+}
+.login ul {
+    margin:1px 0 0 0px ;
+	padding:0;
+}
+.login p {
+    margin:0 0 5px 0;
+	color:#4d4d4d;
+}
+.login li {
+    margin:0 ;
+	padding:0;
+	list-style:none;
+	color:#106296;
+}
+.login span {
+    background:#2c721b;
+	color:#fff;
+	display:inline-block;
+	padding:0 2px;
+	line-height:19px;
+	margin:0 0 2px 0;
+}
+.btn {
+    background:url(images/betty.gif) no-repeat left top;
+	display:bolck;
+	border:none;
+	color:#fff;
+	font-size:13px;
+	letter-spacing:5px;
+	cursor:pointer;
+	font-weight:bold;
+	width:80px;
+	height:57px;
+}
+.w01 {
+    width:200px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+	<table class="layout">
+		<tbody><tr>
+			<td class="leftbg">
+				<br><br><br>
+				<div class="conTopleft01">
+					<form name="memberlogin" method="post" action="http://hylib.lib.nttu.edu.tw/webpac/personalization/memberLoginAct.do">
+      				<input type="hidden" name="rdurl" value="/webpac/personalization/personal.jsp"> 
+      				<div class="login">
+      					<table class="bluebox" cellspacing="2" cellpadding="4" align="center" border="0">
+        					<tbody>
+        						<tr>
+          							<th width="45">帳號</th> 
+          							<td><input id="account2" name="account2" class="w01"></td>
+          					    	<td width="110" rowspan="2"><input type="submit" value="登入" class="btn"></td>
+        						</tr>
+        						<tr>
+          							<th>密碼</th>
+          							<td><input id="loginPassword" type="password" name="passwd2" class="w01" autocomplete="off"></td>         						
+       					   	 	</tr>
+        						<tr>
+          							<td colspan="3">
+          								<ul><p>證號注意事項：</p>
+										<li>1.103學年度以前證號為系所代碼+學號</li>
+										<li>2.103學年度以後新生證號為學號+發卡序號(00)</li>
+										<li>3.轉學生之證號為系所代碼+學號+A(註:A代表發卡序)</li>
+									<ul><p>密碼注意事項：</p>
+									<li>密碼預設為身份證號後四碼, 進去後可自行修改</li></ul>
+									</ul></td>
+            					</tr>
+        					</tbody>
+        				</table>
+                    </div>
+        		</form>
+				</div>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+
+
+
+
+
+
+</body></html>
