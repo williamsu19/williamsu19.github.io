@@ -1,5 +1,5 @@
 <?php
-  $db_link = @mysqli_connect("localhost", "root", "20011219" ,"idpw");
+  $db_link = @mysqli_connect("192.168.0.107", "root", "20011219" ,"idpw");
  //資料庫連接部份
 	$id = $_POST['id'];
 	$pw = $_POST['pw'];
